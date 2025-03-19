@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-19T16:38:51 IST" name="Suite" finished-at="2025-03-19T16:40:44 IST" duration-ms="113213">
+    <groups>
+      <group name="sanity">
+        <method signature="yakshaHealthAppTestCase.verifyTitleOfTheHomePage()[pri:1, instance:testcases.yakshaHealthAppTestCase@cf65451]" name="verifyTitleOfTheHomePage" class="testcases.yakshaHealthAppTestCase"/>
+        <method signature="yakshaHealthAppTestCase.verifySelectCounterPopupIsPresentAndNavigateToNextpage()[pri:2, instance:testcases.yakshaHealthAppTestCase@cf65451]" name="verifySelectCounterPopupIsPresentAndNavigateToNextpage" class="testcases.yakshaHealthAppTestCase"/>
+        <method signature="yakshaHealthAppTestCase.performKeyBoardOperationToOpenAddNewPatientPopup()[pri:3, instance:testcases.yakshaHealthAppTestCase@cf65451]" name="performKeyBoardOperationToOpenAddNewPatientPopup" class="testcases.yakshaHealthAppTestCase"/>
+        <method signature="yakshaHealthAppTestCase.fillTheTextFieldInAddNewPatientPopup()[pri:4, instance:testcases.yakshaHealthAppTestCase@cf65451]" name="fillTheTextFieldInAddNewPatientPopup" class="testcases.yakshaHealthAppTestCase"/>
+        <method signature="yakshaHealthAppTestCase.verifyEnteredValueIsPresent()[pri:5, instance:testcases.yakshaHealthAppTestCase@cf65451]" name="verifyEnteredValueIsPresent" class="testcases.yakshaHealthAppTestCase"/>
+        <method signature="yakshaHealthAppTestCase.verifyIndiaIsSelectedFromCountryDropdown()[pri:6, instance:testcases.yakshaHealthAppTestCase@cf65451]" name="verifyIndiaIsSelectedFromCountryDropdown" class="testcases.yakshaHealthAppTestCase"/>
+        <method signature="yakshaHealthAppTestCase.validateErrorMessageWhenClickOnRegisterBillingButton()[pri:7, instance:testcases.yakshaHealthAppTestCase@cf65451]" name="validateErrorMessageWhenClickOnRegisterBillingButton" class="testcases.yakshaHealthAppTestCase"/>
+        <method signature="yakshaHealthAppTestCase.verifyDispensaryArrowIsExpanding()[pri:8, instance:testcases.yakshaHealthAppTestCase@cf65451]" name="verifyDispensaryArrowIsExpanding" class="testcases.yakshaHealthAppTestCase"/>
+        <method signature="yakshaHealthAppTestCase.verifyDispensaryArrowIsMinimizing()[pri:9, instance:testcases.yakshaHealthAppTestCase@cf65451]" name="verifyDispensaryArrowIsMinimizing" class="testcases.yakshaHealthAppTestCase"/>
+        <method signature="yakshaHealthAppTestCase.verifyControlScrollingFromDispensaryToSettingModule()[pri:10, instance:testcases.yakshaHealthAppTestCase@cf65451]" name="verifyControlScrollingFromDispensaryToSettingModule" class="testcases.yakshaHealthAppTestCase"/>
+        <method signature="yakshaHealthAppTestCase.searchForApatientAndViewDetailsOfSelectedPatient()[pri:11, instance:testcases.yakshaHealthAppTestCase@cf65451]" name="searchForApatientAndViewDetailsOfSelectedPatient" class="testcases.yakshaHealthAppTestCase"/>
+        <method signature="yakshaHealthAppTestCase.takeScreenshotOfDoctorPage()[pri:12, instance:testcases.yakshaHealthAppTestCase@cf65451]" name="takeScreenshotOfDoctorPage" class="testcases.yakshaHealthAppTestCase"/>
+        <method signature="yakshaHealthAppTestCase.deactivateUserByManagingTheAlertPopup()[pri:13, instance:testcases.yakshaHealthAppTestCase@cf65451]" name="deactivateUserByManagingTheAlertPopup" class="testcases.yakshaHealthAppTestCase"/>
+        <method signature="yakshaHealthAppTestCase.verifyTooltipOfAnElement()[pri:14, instance:testcases.yakshaHealthAppTestCase@cf65451]" name="verifyTooltipOfAnElement" class="testcases.yakshaHealthAppTestCase"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2025-03-19T16:38:51 IST" name="Test" finished-at="2025-03-19T16:40:44 IST" duration-ms="113213">
+      <class name="testcases.yakshaHealthAppTestCase">
+        <test-method is-config="true" signature="initBrowser(java.lang.String,java.lang.String)[pri:0, instance:testcases.yakshaHealthAppTestCase@cf65451]" started-at="2025-03-19T16:38:51 IST" name="initBrowser" finished-at="2025-03-19T16:38:56 IST" duration-ms="4524" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method signature="verifyTitleOfTheHomePage()[pri:1, instance:testcases.yakshaHealthAppTestCase@cf65451]" started-at="2025-03-19T16:38:56 IST" name="verifyTitleOfTheHomePage" description="Verify the title and url of  the current page." finished-at="2025-03-19T16:39:00 IST" duration-ms="4757" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitleOfTheHomePage -->
+        <test-method signature="verifySelectCounterPopupIsPresentAndNavigateToNextpage()[pri:2, instance:testcases.yakshaHealthAppTestCase@cf65451]" started-at="2025-03-19T16:39:04 IST" name="verifySelectCounterPopupIsPresentAndNavigateToNextpage" description="Verify all fields and select counter pop up is present or not and proceed to the next page from the new 1 counter page." finished-at="2025-03-19T16:39:12 IST" duration-ms="7897" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySelectCounterPopupIsPresentAndNavigateToNextpage -->
+        <test-method signature="performKeyBoardOperationToOpenAddNewPatientPopup()[pri:3, instance:testcases.yakshaHealthAppTestCase@cf65451]" started-at="2025-03-19T16:39:16 IST" name="performKeyBoardOperationToOpenAddNewPatientPopup" description="Perform the keyboard operation to open the  popup and verify that the popup is displayed or not." finished-at="2025-03-19T16:39:19 IST" duration-ms="2816" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performKeyBoardOperationToOpenAddNewPatientPopup -->
+        <test-method signature="fillTheTextFieldInAddNewPatientPopup()[pri:4, instance:testcases.yakshaHealthAppTestCase@cf65451]" started-at="2025-03-19T16:39:22 IST" name="fillTheTextFieldInAddNewPatientPopup" description="Fill all the textfields which are present inside the Add New Patient popup and verify" finished-at="2025-03-19T16:39:23 IST" duration-ms="1024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillTheTextFieldInAddNewPatientPopup -->
+        <test-method signature="verifyEnteredValueIsPresent()[pri:5, instance:testcases.yakshaHealthAppTestCase@cf65451]" started-at="2025-03-19T16:39:26 IST" name="verifyEnteredValueIsPresent" description="Check the data which we are entered are present in all the textfields." finished-at="2025-03-19T16:39:26 IST" duration-ms="767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEnteredValueIsPresent -->
+        <test-method signature="verifyIndiaIsSelectedFromCountryDropdown()[pri:6, instance:testcases.yakshaHealthAppTestCase@cf65451]" started-at="2025-03-19T16:39:29 IST" name="verifyIndiaIsSelectedFromCountryDropdown" description="Simply select India  from the country dropdown menu and validate India is selected or not." finished-at="2025-03-19T16:39:31 IST" duration-ms="1827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIndiaIsSelectedFromCountryDropdown -->
+        <test-method signature="validateErrorMessageWhenClickOnRegisterBillingButton()[pri:7, instance:testcases.yakshaHealthAppTestCase@cf65451]" started-at="2025-03-19T16:39:34 IST" name="validateErrorMessageWhenClickOnRegisterBillingButton" description="Verify the error message, when I click on register and billing button without fill any data." finished-at="2025-03-19T16:39:35 IST" duration-ms="297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateErrorMessageWhenClickOnRegisterBillingButton -->
+        <test-method signature="verifyDispensaryArrowIsExpanding()[pri:8, instance:testcases.yakshaHealthAppTestCase@cf65451]" started-at="2025-03-19T16:39:38 IST" name="verifyDispensaryArrowIsExpanding" description="Verify that the dispensary arrow is expanding" finished-at="2025-03-19T16:39:42 IST" duration-ms="4081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDispensaryArrowIsExpanding -->
+        <test-method signature="verifyDispensaryArrowIsMinimizing()[pri:9, instance:testcases.yakshaHealthAppTestCase@cf65451]" started-at="2025-03-19T16:39:45 IST" name="verifyDispensaryArrowIsMinimizing" description="Verify that the dispensary arrow is minimizing." finished-at="2025-03-19T16:39:45 IST" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDispensaryArrowIsMinimizing -->
+        <test-method signature="verifyControlScrollingFromDispensaryToSettingModule()[pri:10, instance:testcases.yakshaHealthAppTestCase@cf65451]" started-at="2025-03-19T16:39:48 IST" name="verifyControlScrollingFromDispensaryToSettingModule" description="Verify that the left navigation menu scroll bar is scrolling from Dispensary module to settings module." finished-at="2025-03-19T16:39:49 IST" duration-ms="1220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyControlScrollingFromDispensaryToSettingModule -->
+        <test-method signature="searchForApatientAndViewDetailsOfSelectedPatient()[pri:11, instance:testcases.yakshaHealthAppTestCase@cf65451]" started-at="2025-03-19T16:39:52 IST" name="searchForApatientAndViewDetailsOfSelectedPatient" description="Search for a patient name and view the details of the selected patient" finished-at="2025-03-19T16:40:24 IST" duration-ms="32124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForApatientAndViewDetailsOfSelectedPatient -->
+        <test-method signature="takeScreenshotOfDoctorPage()[pri:12, instance:testcases.yakshaHealthAppTestCase@cf65451]" started-at="2025-03-19T16:40:28 IST" name="takeScreenshotOfDoctorPage" description="Take screenshot of Doctor page" finished-at="2025-03-19T16:40:33 IST" duration-ms="5367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOfDoctorPage -->
+        <test-method signature="deactivateUserByManagingTheAlertPopup()[pri:13, instance:testcases.yakshaHealthAppTestCase@cf65451]" started-at="2025-03-19T16:40:37 IST" name="deactivateUserByManagingTheAlertPopup" description="Deactivate a user or employee by managing the alert popup" finished-at="2025-03-19T16:40:37 IST" duration-ms="503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deactivateUserByManagingTheAlertPopup -->
+        <test-method signature="verifyTooltipOfAnElement()[pri:14, instance:testcases.yakshaHealthAppTestCase@cf65451]" started-at="2025-03-19T16:40:40 IST" name="verifyTooltipOfAnElement" description="Verify tooltip of an element which is present inside the Appointment page." finished-at="2025-03-19T16:40:41 IST" duration-ms="594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTooltipOfAnElement -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.yakshaHealthAppTestCase@cf65451]" started-at="2025-03-19T16:40:44 IST" name="tearDown" finished-at="2025-03-19T16:40:44 IST" duration-ms="261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.yakshaHealthAppTestCase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
